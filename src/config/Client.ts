@@ -5,7 +5,13 @@ import { join } from 'path';
 class ExtendedClient extends Client {
   constructor() {
     super({
-      intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMembers],
+      intents: [
+        GatewayIntentBits.Guilds,
+        GatewayIntentBits.GuildMembers,
+        GatewayIntentBits.GuildMessages,
+        GatewayIntentBits.GuildMessageReactions,
+        GatewayIntentBits.MessageContent
+      ],
       failIfNotExists: false,
       rest: {
         retries: 3,
