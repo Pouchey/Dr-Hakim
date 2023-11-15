@@ -8,7 +8,7 @@ export default {
       const reactionArray = getRandomReactionArray();
 
       for (const reaction of reactionArray) {
-        await message.react(reaction);
+        message.react(reaction);
       }
     }
   }
