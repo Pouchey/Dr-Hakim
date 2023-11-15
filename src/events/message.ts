@@ -18,6 +18,6 @@ export default {
     }
 
     const randomMessage = getRandomMessage();
-    if (randomMessage) message.channel.send(randomMessage);
+    if (randomMessage) message.reply(randomMessage);
   }
 };
