@@ -17,6 +17,12 @@ export default {
       }
     }
 
+    // if maxou speak
+    if (message.author.id === '282088648436875264') message.reply('Maxou, tu es le meilleur !');
+
+    // if val speak
+    if (message.author.id === '474170343398047754') message.react('🥚');
+
     const randomMessage = getRandomMessage();
     if (randomMessage) message.reply(randomMessage);
   }
