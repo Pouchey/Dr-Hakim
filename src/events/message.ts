@@ -16,5 +16,8 @@ export default {
         message.react(reaction);
       }
     }
+
+    const randomMessage = getRandomMessage();
+    if (randomMessage) message.channel.send(randomMessage);
   }
 };
