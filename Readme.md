@@ -56,5 +56,4 @@ screen -ls
 
 # Sources 📖
 
-- Scrap : https://api.gouv.fr/les-api/api_offresdemplois
 
